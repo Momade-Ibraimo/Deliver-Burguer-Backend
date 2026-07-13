@@ -1,0 +1,37 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Banco de dados SQL local
+*.sqlite
+*.sqlite3
+
+# MongoDB - dumps e dados locais
+*.mongodb
+dump/
+mongo-data/
+data/db/
+
+# Build/cache
+dist/
+build/
+.cache/
+
+# Editor / SO
+.DS_Store
+Thumbs.db
+
+# Insomnia
+Insomnia.co*
